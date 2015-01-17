@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Frame 1 Basic -->
+
+    <LinearLayout
+        android:id="@+id/MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/index_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/topbar" />
+
+        <include layout="@layout/disc" />
+
+        <include layout="@layout/name_select" />
+    </LinearLayout>
+
+    <!-- Frame 2 Float Buttons -->
+
+    <include layout="@layout/float_buttons" />
+
+    <!-- Frame 3 Right Answer -->
+
+    <include layout="@layout/answer_right" />
+
+</FrameLayout>

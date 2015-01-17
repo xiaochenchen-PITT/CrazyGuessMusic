@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btn_delete_word"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:background="@drawable/delete_button_sel" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/game_coin_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
+                android:text="@integer/delete_cost"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:textStyle="bold"></TextView>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btn_tip_answer"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:background="@drawable/tip_button_sel" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/game_coin_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="7dp"
+                android:text="@integer/tip_cost"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:textStyle="bold"></TextView>
+        </FrameLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

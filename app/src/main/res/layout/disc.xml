@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/disc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/musicTitleBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/music_title_bar"
+            android:src="@drawable/game_title" />
+
+        <TextView
+            android:id="@+id/musicTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="music"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/gameDisc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/game_disc"
+            android:src="@drawable/game_disc" />
+
+        <ImageView
+            android:id="@+id/gameDiscLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/game_disc"
+            android:src="@drawable/game_disc_light" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/disc_play_sel"
+            android:visibility="visible"
+            android:contentDescription="@string/play_or_stop_the_music" />
+
+        <ImageView
+            android:id="@+id/discStick"
+            android:layout_width="40dp"
+            android:layout_height="90dp"
+            android:layout_gravity="right"
+            android:contentDescription="@string/animated_disc_stick"
+            android:src="@drawable/index_pin" />
+    </FrameLayout>
+
+</LinearLayout>

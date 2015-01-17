@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CrazyGuessMusic</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="top_bar_back_button">top bar back button</string>
+    <string name="top_bar_coin_display">top bar coin display</string>
+    <string name="top_bar_addcoin_button">top bar add coin button</string>
+    <string name="coin_icon">coin icon</string>
+    <string name="_1000">1000</string>
+    <string name="play_or_stop_the_music">play or stop the music</string>
+    <string name="disc_image">disc image</string>
+    <string name="music_title_bar">music title bar</string>
+    <string name="game_disc">game disc</string>
+    <string name="animated_disc_stick">animated disc stick</string>
+    <string name="line_seperator">line seperator</string>
+
+    <string name="wx_share_default">小老头现在正在听这首歌：</string>
+    <string name="wx_add_coin_default">小老头厚着脸皮来找你要100金币了～</string>
+
+</resources>

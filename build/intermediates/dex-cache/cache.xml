@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/admin/Documents/workspace/Android/CrazyGuessMusic/app/src/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c1f63f70671d69ee38379728e1192db82e289246">
+        <dex dex="/Users/admin/Documents/workspace/Android/CrazyGuessMusic/app/build/intermediates/pre-dexed/release/libammsdk-1807f98763e5876b841432329788cfac73264d7c.jar" />
+    </item>
+
+</items>

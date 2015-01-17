@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/index_bar"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/topbar_backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@string/top_bar_back_button"
+        android:src="@drawable/bar_backbutton_sel" />
+
+    <FrameLayout
+        android:id="@+id/topbar_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@string/top_bar_coin_display">
+
+        <ImageButton
+            android:id="@+id/add_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/top_bar_addcoin_button"
+            android:src="@drawable/bar_addcoin_sel" />
+
+        <ImageView
+            android:id="@+id/coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:contentDescription="@string/coin_icon"
+            android:src="@drawable/game_coin_icon" />
+
+        <TextView
+            android:id="@+id/coin_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="15dp"
+            android:text="@string/_1000"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</RelativeLayout>

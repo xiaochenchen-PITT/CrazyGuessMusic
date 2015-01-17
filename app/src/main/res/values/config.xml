@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="tip_cost">90</integer>
+    <integer name="delete_cost">10</integer>
+    <integer name="add_coin">100</integer>
+</resources>
